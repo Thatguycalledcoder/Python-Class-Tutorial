@@ -22,3 +22,9 @@ class Person:
 peter = Person(9)
 peter.amIOld()
 peter.yearPasses()
+
+#Simulates three years passing
+for i in range(0, 3):
+    peter.yearPasses()
+    
+peter.amIOld()
